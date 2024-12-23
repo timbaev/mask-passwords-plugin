@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>4.88</version>
+    <version>5.3</version>
   </parent>
 
   <artifactId>mask-passwords</artifactId>
@@ -15,7 +15,7 @@
   <version>${changelist}</version>
 
   <properties>
-    <jenkins.version>2.361.4</jenkins.version>
+    <jenkins.version>2.479.2</jenkins.version>
      <spotbugs.effort>Max</spotbugs.effort>
     <changelist>999999-SNAPSHOT</changelist>
     <gitHubRepo>jenkinsci/mask-passwords-plugin</gitHubRepo>
@@ -79,8 +79,8 @@
         <dependencies>
             <dependency>
                 <groupId>io.jenkins.tools.bom</groupId>
-                <artifactId>bom-2.361.x</artifactId>
-                <version>2102.v854b_fec19c92</version>
+                <artifactId>bom-2.479.x</artifactId>
+                <version>3790.va_b_a_2d26d2b_69</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
